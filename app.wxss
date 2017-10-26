@@ -1,0 +1,7 @@
+@import 'style/common.wxss';
+
+.container {
+  height: 100%;
+  font-size: 32rpx;
+  box-sizing: border-box;
+}

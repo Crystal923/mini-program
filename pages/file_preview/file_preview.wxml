@@ -1,0 +1,22 @@
+<view class="container">
+  <view class='list_item' bindtap='viewPDF'>
+    <text class='item_text'>PDF预览</text>
+    <image class='item_img' src='../../image/more.png'></image>
+  </view>
+  <view class='list_item' bindtap='viewWord'>
+    <text class='item_text'>Word预览</text>
+    <image class='item_img' src='../../image/more.png'></image>
+  </view>
+  <view class='list_item' bindtap='viewWordX'>
+    <text class='item_text'>Word(X)预览</text>
+    <image class='item_img' src='../../image/more.png'></image>
+  </view>
+  <view class='list_item' bindtap='viewPPT'>
+    <text class='item_text'>PPT预览</text>
+    <image class='item_img' src='../../image/more.png'></image>
+  </view>
+  <view class='list_item' bindtap='viewPPTX'>
+    <text class='item_text'>PPT(X)预览</text>
+    <image class='item_img' src='../../image/more.png'></image>
+  </view>
+</view>
