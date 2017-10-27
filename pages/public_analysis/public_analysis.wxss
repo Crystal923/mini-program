@@ -12,3 +12,41 @@
   display: block;
   margin: 0 auto;
 }
+
+.public_analysis .time_name {
+  font-size: 28rpx;
+  line-height: 140%;
+  color: #b3b3bc;
+  margin-bottom: 24rpx;
+}
+
+.public_analysis .time_name .author, .public_analysis .time_name .public_title {
+  margin-left: 30rpx;
+}
+
+.public_analysis .public_footer {
+  color: #b3b3bc;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  width: 60%;
+  border: 1rpx solid #b3b3bc;
+  margin: 20rpx auto;
+}
+
+.public_analysis .public_footer .footer_tip {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 1rpx solid #b3b3bc;
+}
+
+.public_analysis .public_footer .footer_content {
+  display: flex;
+  justify-content: space-between;
+  color: #717277;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.public_analysis .public_footer .footer_content .attention {
+  color: #b3b3bc;
+}

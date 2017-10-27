@@ -2,6 +2,18 @@
 <view class="container">
   <view class='public_analysis'>
     <view class='content_title'>{{linkObj.content_title}}</view>
+    <view class='time_name'>
+      <text class='time'>2017-10-27 16:00</text>
+      <text class='author'>小哈</text>
+      <text class='public_title'>香哈菜谱</text>
+    </view>
     <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+    <view class='public_footer'>
+      <view class='footer_tip'>内容来自公众号</view>
+      <view class='footer_content'>
+        <text>{{linkObj.title}}</text>
+        <view class='attention'>我要关注</view>
+      </view>
+    </view>
   </view>
 </view>
