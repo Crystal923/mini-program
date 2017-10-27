@@ -1,5 +1,5 @@
 .list_item {
-  height: 64rpx;
+  height: 72rpx;
   padding: 0 24rpx;
   border-bottom: 1rpx dashed #e7e7ef;
   display: flex;

@@ -44,7 +44,7 @@ Page({
   },
   // word预览
   viewWordX: function () {
-    var path = 'https://api.dkjt.qeebu.com/cdn/public/uploads/2017-10-26/59f1bf5fd0cd2.docx';
+    var path = 'https://api.dkjt.qeebu.com/cdn/public/uploads/2017-10-27/59f28f1fbf68a.docx';
     wx.showLoading({
       title: '下载中...',
     })
@@ -84,7 +84,7 @@ Page({
   },
   // 预览PPT
   viewPPTX: function () {
-    var path = 'https://api.dkjt.qeebu.com/cdn/public/uploads/2017-10-26/59f1be6154b44.pptx';
+    var path = 'https://api.dkjt.qeebu.com/cdn/public/uploads/2017-10-27/59f28f1983d80.pptx';
     wx.showLoading({
       title: '下载中...',
     })
