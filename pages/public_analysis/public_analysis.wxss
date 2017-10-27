@@ -1,3 +1,14 @@
-.public_analysis{
+.public_analysis {
   padding: 30rpx;
+}
+
+.public_analysis .content_title {
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+  font-weight: bold;
+}
+
+.public_analysis .wxParse-p .wxParse-img {
+  display: block;
+  margin: 0 auto;
 }
