@@ -1,12 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/file_preview/file_preview"
+    "pages/file_preview/file_preview",
+    "pages/public_analysis/public_analysis"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "LILY",
     "navigationBarTextStyle": "black"
   }
 }

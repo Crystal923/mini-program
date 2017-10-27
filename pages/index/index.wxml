@@ -1,7 +1,13 @@
-<view class="container">
+<view class="container" >
   <navigator url='../file_preview/file_preview'>
     <view class='list_item'>
       <text class='item_text'>文件预览</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../public_analysis/public_analysis'>
+    <view class='list_item'>
+      <text class='item_text'>公众号文章解析</text>
       <image class='item_img' src='../../image/more.png'></image>
     </view>
   </navigator>

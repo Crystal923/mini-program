@@ -1,0 +1,7 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="container">
+  <view class='public_analysis'>
+    <view class='content_title'>{{linkObj.content_title}}</view>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+</view>

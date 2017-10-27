@@ -1,7 +1,15 @@
 @import 'style/common.wxss';
+@import "wxParse/wxParse.wxss";
+
+page {
+  height: 100%;
+}
 
 .container {
   height: 100%;
   font-size: 32rpx;
   box-sizing: border-box;
+  background-image: url('http://oqt5xkoma.bkt.clouddn.com/bgb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -9,7 +9,7 @@
 
 .list_item .item_text {
   font-family: '微软雅黑';
-  background-image: -webkit-linear-gradient(left, #147b96, #e6d205 25%, #147b96 50%, #e6d205 75%, #147b96);
+  background-image: -webkit-linear-gradient(left, #f96, #e6d205 25%, #f96 50%, #e6d205 75%, #f96);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
