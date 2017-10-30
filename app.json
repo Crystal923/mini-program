@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/file_preview/file_preview",
-    "pages/public_analysis/public_analysis"
+    "pages/public_analysis/public_analysis",
+    "pages/audio/audio"
   ],
   "window": {
     "backgroundTextStyle": "light",

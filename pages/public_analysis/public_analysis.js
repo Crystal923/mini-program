@@ -4,7 +4,7 @@ const toolkit = require('../../utils/toolkit.js'),
 var article;
 Page({
   data: {
-    url: 'http://mp.weixin.qq.com/s/6qKAdi9_AJnrXFr1lVAfQQ',
+    url: 'http://mp.weixin.qq.com/s/8NOKX6gxYGvhxQYGyyc39A',
     linkObj: ''
   },
   onLoad: function (options) {

@@ -3,9 +3,9 @@
   <view class='public_analysis'>
     <view class='content_title'>{{linkObj.content_title}}</view>
     <view class='time_name'>
-      <text class='time'>2017-10-27 16:00</text>
-      <text class='author'>小哈</text>
-      <text class='public_title'>香哈菜谱</text>
+      <text class='time'>{{linkObj.content_time}}</text>
+      <text class='author'>{{linkObj.content_author}}</text>
+      <text class='public_title'>{{linkObj.title}}</text>
     </view>
     <template is="wxParse" data="{{wxParseData:article.nodes}}" />
     <view class='public_footer'>

@@ -1,0 +1,4 @@
+<view class="container">
+  <view class='record' bindtap='startRecord'>录音</view>
+  <view bindtap='startPlay'>播放</view>
+</view>
