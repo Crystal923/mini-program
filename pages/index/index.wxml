@@ -17,4 +17,10 @@
       <image class='item_img' src='../../image/more.png'></image>
     </view>
   </navigator>
+  <navigator url='../custom_component/custom_component'>
+    <view class='list_item'>
+      <text class='item_text'>自定义组件</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
 </view>

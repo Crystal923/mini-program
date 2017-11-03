@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/file_preview/file_preview",
     "pages/public_analysis/public_analysis",
-    "pages/audio/audio"
+    "pages/audio/audio",
+    "pages/custom_component/custom_component"
   ],
   "window": {
     "backgroundTextStyle": "light",

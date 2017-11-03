@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "custom_checkbox": "../../component/checkbox/checkbox"
+  }
+}

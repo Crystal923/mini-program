@@ -1,4 +1,11 @@
 <view class="container">
-  <view class='record' bindtap='startRecord'>录音</view>
-  <view bindtap='startPlay'>播放</view>
+  <button class='btn_normal' bindtap='startRecord'>开始录音</button>
+  <button class='btn_normal' bindtap='pauseRecord'>暂停录音</button>
+  <button class='btn_normal' bindtap='resumeRecord'>继续录音</button>
+  <button class='btn_normal' bindtap='stopRecord'>结束录音</button>
+  <view class='btn_group'>
+    <button class='btn_small' bindtap='startPlay'>试听</button>
+    <button class='btn_small' bindtap='upload'>上传</button>
+  </view>
+  <button class='btn_normal' bindtap='onlinePlay'>在线音频试听</button>
 </view>

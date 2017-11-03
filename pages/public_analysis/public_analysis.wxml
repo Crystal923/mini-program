@@ -5,15 +5,15 @@
     <view class='time_name'>
       <text class='time'>{{linkObj.content_time}}</text>
       <text class='author'>{{linkObj.content_author}}</text>
-      <text class='public_title'>{{linkObj.title}}</text>
+      <text class='public_title' bindtap='attention'>{{linkObj.title}}</text>
     </view>
     <template is="wxParse" data="{{wxParseData:article.nodes}}" />
     <view class='public_footer'>
       <view class='footer_tip'>内容来自公众号</view>
       <view class='footer_content'>
         <text>{{linkObj.title}}</text>
-        <view class='attention'>我要关注</view>
       </view>
+      <view class='attention' bindtap='attention'>我要关注</view>
     </view>
   </view>
 </view>

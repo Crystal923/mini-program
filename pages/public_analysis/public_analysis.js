@@ -25,5 +25,10 @@ Page({
         WxParse.wxParse('article', 'html', article, that, 5);
       }
     })
+  },
+  attention: function () {
+    wx.showModal({
+      title: '已复制公众号"' + this.data.linkObj.title+'"',
+    })
   }
 })

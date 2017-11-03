@@ -1,0 +1,3 @@
+<view class="container">
+  <custom_checkbox checkbox_msg="你好，我是自定义CheckBox"></custom_checkbox>
+</view>

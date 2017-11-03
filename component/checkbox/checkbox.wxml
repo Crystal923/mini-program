@@ -1,0 +1,6 @@
+<view bindtap='checkboxChanged' class='custom_checkbox'>
+  <checkbox id='checkbox' checked='true'></checkbox>
+  <label for='checkbox' class='checkbox_label'>
+    {{checkbox_msg}}
+  </label>
+</view>
