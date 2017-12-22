@@ -1,0 +1,5 @@
+Compontent({
+  properties: {
+
+  }
+})

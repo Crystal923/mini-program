@@ -1,0 +1,9 @@
+<view class="animation">
+  <view class='animation_page' wx:if="{{currentPage==0}}">第一页</view>
+  <view class='animation_page' wx:if="{{currentPage==1}}">第二页</view>
+  <view class='animation_page' wx:if="{{currentPage==2}}">第三页</view>
+  <view class='footer btn_group'>
+    <button class='btn_normal'>前</button>
+    <button class='btn_normal'>后</button>
+  </view>
+</view>

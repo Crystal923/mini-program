@@ -1,0 +1,3 @@
+<view class="user_info">
+  <button class='btn_normal' open-type='getPhoneNumber' bindgetphonenumber='getPhoneNumber'>获取绑定手机号</button>
+</view>

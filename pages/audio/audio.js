@@ -66,9 +66,7 @@ Page({
       filePath: that.data.audioPath,
       name: 'file',
       formData: {
-        file: 'file',
-        thumb: 1,
-        dir: 'test'
+        file: 'file'
       },
       success: function (res) {
         console.log('上传完成', res)

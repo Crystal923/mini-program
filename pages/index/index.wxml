@@ -23,4 +23,16 @@
       <image class='item_img' src='../../image/more.png'></image>
     </view>
   </navigator>
+  <navigator url='../user_info/user_info'>
+    <view class='list_item'>
+      <text class='item_text'>获取用户信息</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../animation/animation'>
+    <view class='list_item'>
+      <text class='item_text'>动画</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
 </view>

@@ -4,7 +4,9 @@
     "pages/file_preview/file_preview",
     "pages/public_analysis/public_analysis",
     "pages/audio/audio",
-    "pages/custom_component/custom_component"
+    "pages/custom_component/custom_component",
+    "pages/user_info/user_info",
+    "pages/animation/animation"
   ],
   "window": {
     "backgroundTextStyle": "light",

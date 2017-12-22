@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.4",
+	"libVersion": "1.7.2",
 	"appid": "wx033b336c4477ae5a",
 	"projectname": "LilyDemo",
 	"condition": {
@@ -21,8 +21,21 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "获取用户信息",
+					"pathName": "pages/user_info/user_info",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "动画",
+					"pathName": "pages/animation/animation",
+					"query": ""
+				}
+			]
 		}
 	}
 }
