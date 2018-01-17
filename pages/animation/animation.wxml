@@ -1,9 +1,16 @@
 <view class="animation">
-  <view class='animation_page' wx:if="{{currentPage==0}}">第一页</view>
-  <view class='animation_page' wx:if="{{currentPage==1}}">第二页</view>
-  <view class='animation_page' wx:if="{{currentPage==2}}">第三页</view>
-  <view class='footer btn_group'>
-    <button class='btn_normal'>前</button>
-    <button class='btn_normal'>后</button>
+  <view class="list-item" animation="{{animationA}}" bindtap='itemA'>
+    <image src="../../image/a_bg.png" animation="{{animationAI}}"></image>
+    <view wx:if="{{itemA==true}}">
+      这里是一段文字
+      <button>还有一个按钮</button>
+    </view>
+  </view>
+  <view class="list-item" animation="{{animationB}}" bindtap='itemB'>
+    <image animation="{{animationBI}}" src="../../image/c_bg.png"></image>
+    <view wx:if="{{itemB==true}}">
+      这里是一段文字
+      <button>还有一个按钮</button>
+    </view>
   </view>
 </view>

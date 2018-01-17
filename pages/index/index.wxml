@@ -35,4 +35,10 @@
       <image class='item_img' src='../../image/more.png'></image>
     </view>
   </navigator>
+   <navigator url='../new_year/new_year'>
+    <view class='list_item'>
+      <text class='item_text'>新年测测</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
 </view>

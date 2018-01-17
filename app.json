@@ -6,7 +6,9 @@
     "pages/audio/audio",
     "pages/custom_component/custom_component",
     "pages/user_info/user_info",
-    "pages/animation/animation"
+    "pages/animation/animation",
+    "pages/new_year/new_year",
+    "pages/newyear_detail/newyear_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

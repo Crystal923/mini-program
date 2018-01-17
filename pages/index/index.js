@@ -41,7 +41,7 @@ innerAudioContext.onError((res) => {
 
 Page({
   data: {
-    src: ''
+    src: '',
   },
   // 开始
   startRecord: function () {
@@ -59,16 +59,16 @@ Page({
     this.audio = wx.createAudioContext('myAudio');
     this.audio.play();
   },
-  getPhoneNumber:function(){
+  getPhoneNumber: function () {
     wx.login({
-      success:function(res){
-        console.log('成功',res)
+      success: function (res) {
+        console.log('成功', res)
       }
     })
-  wx.getUserInfo({
-    success:function(res){
-      console.log('获取信息成功', res)
-    }
-  })
+    wx.getUserInfo({
+      success: function (res) {
+        console.log('获取信息成功', res)
+      }
+    })
   }
 })
