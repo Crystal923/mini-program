@@ -1,0 +1,22 @@
+.container {
+  padding: 24rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.blessArea {
+  /* position: absolute;
+  bottom: 200rpx; */
+  width: 100%;
+  height: 100rpx;
+  background-color: antiquewhite;
+  display: inline-block;
+}
+
+.send-bless {
+  position: absolute;
+  width: 48rpx;
+  height: 48rpx;
+}

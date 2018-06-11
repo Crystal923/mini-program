@@ -1,0 +1,13 @@
+<view class="swiper_container">
+  <swiper class='swiper' circular='true' display-multiple-items="1" previous-margin="64rpx" skip-hidden-item-layout next-margin="64rpx" bindchange='swiperChange'>
+    <swiper-item class='swiper_item {{0==currentIndex?"current_item":""}}'>
+      <image src='../../image/bge.jpg'></image>
+    </swiper-item>
+    <swiper-item class='swiper_item {{1==currentIndex?"current_item":""}}'>
+      <image src='../../image/bgf.jpg'></image>
+    </swiper-item>
+    <swiper-item class='swiper_item {{2==currentIndex?"current_item":""}}'>
+      <image src='../../image/bgc.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>

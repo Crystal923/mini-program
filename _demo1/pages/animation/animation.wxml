@@ -1,0 +1,16 @@
+<view class="animation">
+  <view class="list-item" animation="{{animationA}}" bindtap='itemA'>
+    <image src="../../image/bge.jpg" mode='aspectFill' animation="{{animationAI}}"></image>
+    <view>
+      这里是一段文字
+      <button>还有一个按钮</button>
+    </view>
+  </view>
+  <view class="list-item" animation="{{animationB}}" bindtap='itemB'>
+    <image animation="{{animationBI}}" mode='aspectFill' src="../../image/bgf.jpg"></image>
+    <view>
+      这里是一段文字
+      <button>还有一个按钮</button>
+    </view>
+  </view>
+</view>

@@ -1,5 +1,0 @@
-Compontent({
-  properties: {
-
-  }
-})

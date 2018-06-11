@@ -1,8 +1,0 @@
-<view class="custom_modal">
-  <view class='mask_layer'></view>
-  <view class='modal_dialog'>
-    <view class='modal_header'>模态框标题</view>
-    <view class='modal_body'></view>
-    <view class='modal_footer'></view>
-  </view>
-</view>

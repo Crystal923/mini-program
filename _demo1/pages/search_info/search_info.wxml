@@ -1,0 +1,11 @@
+<view class="search_info_container">
+  <scroll-view class='info_container' scroll-y scroll-into-view="{{'sv'+currentIndex}}">
+    <view id='{{"sv"+index}}' class='info_item {{infoList[index].source==1?"info_item_mine":""}}' wx:for="{{infoList}}" wx:key="{{index}}"><rich-text nodes="{{item.msg}}"></rich-text></view>
+  </scroll-view>
+  <view class='input_view'>
+    <button class='staff_btn' open-type='contact'>客服</button>
+    <input bindinput='mineMsgChange' value='{{inputValue}}' class='info_input' placeholder='你想知道什么？'></input>
+    <view bindtap='sendMsg' class='send_btn'>发送</view>
+  </view>
+  <toast id="toast"></toast>
+</view>

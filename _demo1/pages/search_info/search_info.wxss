@@ -1,0 +1,69 @@
+page {
+  height: 100vh;
+}
+
+.search_info_container .info_container {
+  height: calc(100vh - 100rpx);
+}
+
+.search_info_container .info_item {
+  background-color: #ffffe0;
+  border-radius: 10rpx;
+  color: #32cd32;
+  margin: 20rpx;
+  padding: 12rpx;
+  font-size: 32rpx;
+  line-height: 1.4;
+  min-width: 50%;
+  max-width: 80%;
+  display: block;
+}
+
+.search_info_container .info_item_mine {
+  background-color: #32cd32;
+  float: right;
+  color: white;
+  display: block;
+}
+
+.search_info_container .input_view {
+  position: fixed;
+  width: 100%;
+  bottom: 10rpx;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search_info_container .info_input {
+  border: 1rpx solid #e7e7e7;
+  border-radius: 10rpx;
+  margin-left: 18rpx;
+  box-sizing: border-box;
+  padding: 0 12rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  display: block;
+  flex: 1;
+}
+
+.search_info_container .input_view .send_btn {
+  width: 120rpx;
+  text-align: center;
+  height: 72rpx;
+  line-height: 72rpx;
+  background-color: #32cd32;
+  border-radius: 10rpx;
+  color: white;
+  margin-left: 18rpx;
+  margin-right: 18rpx;
+}
+
+.search_info_container .input_view .staff_btn {
+  width: 120rpx;
+  background-color: #87cefa;
+  font-size: 26rpx;
+  color: white;
+  margin-left: 18rpx;
+}

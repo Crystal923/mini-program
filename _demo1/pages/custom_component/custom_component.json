@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cart_num": "../../component/cart_num/cart_num",
+    "toast": "../../component/toast/toast",
+    "custom_modal": "../../component/custom_modal/custom_modal",
+    "calendar": "../../component/calendar/calendar"
+  }
+}

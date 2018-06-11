@@ -1,0 +1,6 @@
+<view class="cart_num">
+  <image class='plus_minus_icon' bindtap='minusCount' src='../../image/minus.png'></image>
+  <input placeholder='0' class='num_input' value='{{count}}'></input>
+  <image class='plus_minus_icon' bindtap='plusCount' src='../../image/plus.png'></image>
+  <toast id="toast"></toast>
+</view>

@@ -1,0 +1,26 @@
+.swiper_container {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper_container .swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper_container .swiper .swiper_item,
+.swiper_container .swiper .swiper_item  image {
+  width: calc(100% - 24rpx);
+  height: calc(100vh - 360rpx);
+  margin: 80rpx 12rpx;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+}
+
+.swiper_container .swiper .current_item,
+.swiper_container .swiper .current_item  image {
+  width: calc(100% - 24rpx);
+  height: calc(100vh - 180rpx);
+  margin: 40rpx 12rpx;
+  border-radius: 20rpx;
+}

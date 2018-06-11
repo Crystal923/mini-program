@@ -1,0 +1,3 @@
+<view class="rorate_container">
+  <image class='rorate_img' src='../../image/music.png'></image>
+</view>

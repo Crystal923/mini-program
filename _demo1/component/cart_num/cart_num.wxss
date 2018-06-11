@@ -1,0 +1,18 @@
+.cart_num {
+  width: 280rpx;
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart_num .plus_minus_icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.cart_num .num_input {
+  width: 120rpx;
+  display: inline-block;
+  text-align: center;
+}

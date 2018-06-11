@@ -1,0 +1,6 @@
+<view class="newyear_detail">
+  <view data-cardindex="{{index}}" style="{{currentCard==index&&currentCard!=0?style:''}}" class='card-item {{"card-item"+[index]}}' wx:for="{{cardList}}" wx:key="{{index}}" direction="all" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"
+    animation="{{currentCard==index&&currentCard!=0?cardAnimation[currentCard]:''}}">
+    {{item.name}}
+  </view>
+</view>

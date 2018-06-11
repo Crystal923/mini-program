@@ -1,0 +1,18 @@
+.toast {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 45vh;
+  left: 0;
+}
+
+.toast .toast_body {
+  display: inline-block;
+  padding: 12rpx 36rpx;
+  color: #fff;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 75rpx/75rpx;
+  letter-spacing: 6rpx;
+}

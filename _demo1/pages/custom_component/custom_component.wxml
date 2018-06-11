@@ -1,0 +1,14 @@
+<view class="container">
+  <cart_num count="{{count}}" max-count="{{maxCount}}"></cart_num>
+
+  <button class='btn_normal' bindtap='showToast'>弹个吐司</button>
+  <!-- 吐司 -->
+  <toast id="toast"></toast>
+
+  <button class='btn_normal' bindtap='showModal'>弹个模态框</button>
+  <!-- 模态框 -->
+  <custom_modal id="custom_modal" bind:cancel="modalCancel" bind:confirm="modalConfirm" show-cancel show-close cancelText="退出" img-src="../../image/modal_pic.png"></custom_modal>
+
+  <calendar id="calendar"></calendar>
+
+</view>

@@ -1,0 +1,69 @@
+<view class="container">
+  <navigator url='../file_preview/file_preview'>
+    <view class='list_item'>
+      <text class='item_text'>文件预览</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../public_analysis/public_analysis'>
+    <view class='list_item'>
+      <text class='item_text'>公众号文章解析</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../custom_component/custom_component'>
+    <view class='list_item'>
+      <text class='item_text'>自定义组件</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../user_info/user_info'>
+    <view class='list_item'>
+      <text class='item_text'>获取用户信息</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../animation/animation'>
+    <view class='list_item'>
+      <text class='item_text'>动画</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../new_year/new_year'>
+    <view class='list_item'>
+      <text class='item_text'>新年测测</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../canvas_to_picture/canvas_to_picture'>
+    <view class='list_item'>
+      <text class='item_text'>Canvas生成图片</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../swiper_demo/swiper_demo'>
+    <view class='list_item'>
+      <text class='item_text'>Swiper</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+
+  <navigator url='../rorate/rorate'>
+    <view class='list_item'>
+      <text class='item_text'>旋转动画</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../search_info/search_info'>
+    <view class='list_item'>
+      <text class='item_text'>查资料</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../map/map'>
+    <view class='list_item'>
+      <text class='item_text'>地图Demo</text>
+      <image class='item_img' src='../../image/more.png'></image>
+    </view>
+  </navigator>
+</view>

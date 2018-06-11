@@ -1,0 +1,15 @@
+<view class="custom_modal_container" hidden='{{!showModal}}'>
+  <view class='cm-mask'></view>
+  <view class='custom_modal'>
+    <image class='custom_modal_close' wx:if="{{showClose}}" bindtap='hide' src='../../image/modal_close.png'></image>
+    <image wx:if="{{imgSrc}}" class='custom_modal_pic' src='{{imgSrc}}'></image>
+    <view wx:if="{{title}}" class='custom_modal_title'>{{title}}</view>
+    <view class='custom_modal_content'>
+      <rich-text nodes="{{content}}"></rich-text>
+    </view>
+    <view class='custom_modal_footer'>
+      <view class='custom_modal_btn' wx:if='{{showCancel}}' catchtap='_cancel'>{{cancelText}}</view>
+      <view class='custom_modal_btn' catchtap='_confirm'>{{confirmText}}</view>
+    </view>
+  </view>
+</view>

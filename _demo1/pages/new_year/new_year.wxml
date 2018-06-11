@@ -1,0 +1,6 @@
+<view class="newyear-container">
+  <image mode='aspectFill' class='container_bg' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" src='../../image/bgg.jpg' animation="{{nextAnimation}}"></image>
+  <image mode='aspectFill' class='container_bg' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" src='../../image/bge.jpg' animation="{{nextAnimation1}}"></image>
+  <image mode='aspectFill' class='container_bg' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" src='../../image/bgd.jpg' animation="{{nextAnimation2}}"></image>
+  <image mode='aspectFill' class='container_bg' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" src='../../image/bgc.jpg' animation="{{nextAnimation3}}" bindtap='detail'></image>
+</view>

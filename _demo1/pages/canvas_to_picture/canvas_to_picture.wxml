@@ -1,0 +1,3 @@
+<view class="canvas-container">
+  <canvas canvas-id="myCanvas" class='canvas' bindlongpress="save" />
+</view>
