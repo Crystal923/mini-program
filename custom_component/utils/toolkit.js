@@ -67,6 +67,22 @@ const toolkit = {
   showModal: function (params) {
     this.getCuurrentPage().selectComponent('#' + params.id).show(params.title, params.msg, params.confirm, params.cancel, params.input);
   },
+  // 开始加载更多
+  startLoadMore: function () {
+    this.getCuurrentPage().selectComponent('#loadmore').start();
+  },
+  // 关闭加载更多
+  stopLoadMore: function () {
+    this.getCuurrentPage().selectComponent('#loadmore').stop();
+  },
+  // 显示木有更多
+  showLoaded: function () {
+    this.getCuurrentPage().selectComponent('#loadmore').showLoaded();
+  },
+  // 隐藏木有更多
+  hide: function () {
+    this.getCuurrentPage().selectComponent('#loadmore').hideLoaded();
+  },
   getCuurrentPage: function () {
     let list = getCurrentPages();
     return list[list.length - 1];

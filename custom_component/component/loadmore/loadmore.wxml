@@ -1,0 +1,9 @@
+<view class="loadmore" wx:if="{{moreLoading==true||moreLoaded==true}}">
+  <view class="loadmore_item" wx:if="{{moreLoading==true&&moreLoaded==false}}">
+    <view class="loading_item"></view>
+    正在加载 ···
+  </view>
+  <view class="loadmore_item" wx:if="{{moreLoaded==true&&moreLoading==false}}">
+    木有更多了哦
+  </view>
+</view>

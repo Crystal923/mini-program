@@ -12,6 +12,8 @@ custom_component：自定义组件的学习与探索
         
         toast：自定义吐司
         
+        loadmore：列表加载更多以及没有更多数据
+        
 使用方法：
 
 modal：
@@ -53,9 +55,7 @@ modal：
         placeholder：输入框的占位内容
         inputType：输入框类型
         cancelText：取消按钮的文字，默认为“取消”
-        confirmText：确定按钮的文字，默认为“确定”  
-        
-    模态框的主体内容可以传入HTML标签，进行富文本解析
+        confirmText：确定按钮的文字，默认为“确定”
         
 toast（这个组件使用比较简单）：
 
@@ -77,8 +77,38 @@ toast（这个组件使用比较简单）：
     toast的属性只有一个：
         
         location：toast的位置，默认在中间显示。可选值有“t” 和 “b” 分别表示在顶部和底部显示。
+        
+loadmore：
+
+    在需要使用的页面json中添加如下配置：
+    
+        "usingComponents": {
+   
+            "loadmore": "../../component/loadmore/loadmore"
+        }
+        
+    在wxml中使用组件：
+    
+       <loadmore id="loadmore"></loadmore>
+        
+    在js中处理逻辑：
+    
+        <!--开始加载更多动画-->
+        toolkit.startLoadMore();
+        <!--结束加载更多动画-->
+        toolkit.stopLoadMore();
+        <!--显示木有更多了提示-->
+        toolkit.showLoaded();
+        <!--隐藏木有更多了提示-->
+        toolkit.hideLoaded();
 
 ```
 #### 模态框效果图  
 
 ![image](http://oqt5xkoma.bkt.clouddn.com/%E6%A8%A1%E6%80%81%E6%A1%86.png)
+
+#### 加载更多及木有更多了提示效果图
+
+![image](http://oqt5xkoma.bkt.clouddn.com/%E5%8A%A0%E8%BD%BD%E4%B8%AD.png)
+
+![image](http://oqt5xkoma.bkt.clouddn.com/%E6%9C%A8%E6%9C%89%E6%9B%B4%E5%A4%9A.png)
