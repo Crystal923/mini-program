@@ -1,0 +1,101 @@
+.custom_modal_container .cm-mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.custom_modal_container .custom_modal {
+  position: fixed;
+  z-index: 1500;
+  width: 560rpx;
+  top: 36%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.custom_modal_container .custom_modal .custom_modal_close {
+  position: absolute;
+  top: 18rpx;
+  right: 18rpx;
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.custom_modal_container .custom_modal .custom_modal_pic {
+  width: 560rpx;
+  height: 150rpx;
+  display: block;
+}
+
+.custom_modal_container .custom_modal .custom_modal_title {
+  font-size: 36rpx;
+  color: #333;
+  width: 100%;
+  text-align: left;
+  padding: 0 36rpx;
+  box-sizing: border-box;
+  margin-top: 24rpx;
+}
+
+.custom_modal_container .custom_modal .custom_modal_content {
+  width: 100%;
+  font-size: 32rpx;
+  color: #666;
+  margin-top: 24rpx;
+  text-align: left;
+  padding: 0 36rpx;
+  box-sizing: border-box;
+}
+
+.custom_modal_container .custom_modal .custom_modal_content .content_input {
+  background-color: #f2f5f9;
+  border-radius: 75rpx/75rpx;
+  margin: 36rpx auto;
+  width: 320rpx;
+  padding: 12rpx;
+  text-align: center;
+}
+
+.custom_modal_container .custom_modal .custom_modal_footer {
+  height: 92rpx;
+  margin-top: 24rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.custom_modal_footer .custom_modal_btn {
+  height: 72rpx;
+  line-height: 72rpx;
+  display: block;
+  -webkit-flex: 1;
+  flex: 1;
+  position: relative;
+  font-size: 34rpx;
+  color: #353535;
+}
+
+.custom_modal_footer .custom_modal_btn:last-of-type {
+  color: #ff523c;
+}
+
+.custom_modal_footer .custom_modal_btn:not(:first-child):after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1rpx;
+  bottom: 0;
+  border-left: 1rpx solid #d5d5d6;
+  color: #d5d5d6;
+}

@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  font-size: 32rpx;
+  box-sizing: border-box;
+}
+
+.list_item {
+  height: 84rpx;
+  padding: 0 24rpx;
+  border-bottom: 1rpx dashed #e7e7ef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list_item .item_text {
+  font-family: '微软雅黑';
+  background-image: -webkit-linear-gradient(left, #696969, #666 25%, #696969 50%, #666 75%, #696969);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28rpx;
+}
+
+.list_item .item_img {
+  width: 28rpx;
+  height: 28rpx;
+}

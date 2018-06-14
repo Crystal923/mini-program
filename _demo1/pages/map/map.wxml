@@ -1,7 +1,0 @@
-<view class="map_container">
-  <button class='btn_normal' bindtap='chooseAddress'>选地址</button>
-  <view wx:for='{{addressList}}' wx:key="{{index}}">{{item.address}}{{item.name}}</view>
-  <button class='btn_normal' bindtap='getAddress'>根据经纬度获取省市区</button>
-  <button class='btn_normal' bindtap='getCityList'>获取城市列表</button>
-    <button class='btn_normal' open-type='getUserInfo' bindgetuserinfo='getUser'>获取用户信息</button>
-</view>

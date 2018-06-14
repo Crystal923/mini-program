@@ -11,8 +11,7 @@
     "pages/canvas_to_picture/canvas_to_picture",
     "pages/swiper_demo/swiper_demo",
     "pages/rorate/rorate",
-    "pages/search_info/search_info",
-    "pages/map/map"
+    "pages/search_info/search_info"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,12 @@
+<view class="container">
+  <view class='list_item' bindtap='showToast'>
+    <text class='item_text'>toast 提示</text>
+    <image class='item_img' src='../../images/more.png'></image>
+  </view>
+  <view class='list_item' bindtap='showModal'>
+    <text class='item_text'>模态框</text>
+    <image class='item_img' src='../../images/more.png'></image>
+  </view>
+</view>
+<toast id="toast"></toast>
+<modal id="modal" imgSrc="../../images/component/modal_pic.png" showClose showCancel showInput></modal>

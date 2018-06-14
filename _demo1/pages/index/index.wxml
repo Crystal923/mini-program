@@ -60,10 +60,4 @@
       <image class='item_img' src='../../image/more.png'></image>
     </view>
   </navigator>
-  <navigator url='../map/map'>
-    <view class='list_item'>
-      <text class='item_text'>地图Demo</text>
-      <image class='item_img' src='../../image/more.png'></image>
-    </view>
-  </navigator>
 </view>
