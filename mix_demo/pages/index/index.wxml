@@ -1,5 +1,5 @@
 <view class="container">
-  <navigator url='../swiper/swiper'>
+  <navigator url='../swiper/swiper' hover-class="none">
     <view class='list_item'>
       <text class='item_text'>swiper的使用</text>
       <image class='item_img' src='../../images/more.png'></image>
