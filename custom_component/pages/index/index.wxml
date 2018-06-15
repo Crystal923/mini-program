@@ -1,4 +1,4 @@
-<view class="container">
+<view class="container" wx:if="{{success}}">
   <view class='list_item' bindtap='showToast'>
     <text class='item_text'>toast 提示</text>
     <image class='item_img' src='../../images/more.png'></image>
@@ -7,60 +7,60 @@
     <text class='item_text'>模态框</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>1</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>2</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>3</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>4</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>5</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>6</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>7</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>8</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>9</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>10</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>11</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
 
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>12</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>13</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
-  <view class='list_item' bindtap='showModal'>
+  <view class='list_item'>
     <text class='item_text'>14</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
@@ -69,3 +69,4 @@
 <toast id="toast"></toast>
 <modal id="modal" imgSrc="../../images/component/modal_pic.png" showClose showCancel showInput></modal>
 <loadmore id="loadmore"></loadmore>
+<loading id="loading"></loading>

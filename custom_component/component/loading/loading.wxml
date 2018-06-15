@@ -1,0 +1,10 @@
+<view class='loading' wx:if="{{loading||loadfail}}">
+  <image class='loading_icon' bindtap='_reload' wx:if="{{loadfail==true}}" src='../../images/component/blank_reload.png'></image>
+  <view class="loading_box" wx:if="{{loading==true}}">
+    <view class="pulse pulse_1"></view>
+    <view class="pulse pulse_2"></view>
+    <view class="pulse pulse_3"></view>
+    <view class="pulse pulse_4"></view>
+  </view>
+  <text class='loading_text'>{{loading==true?"加载中~":"糟糕,点击重新加载吧~"}}</text>
+</view>

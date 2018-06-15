@@ -1,10 +1,20 @@
 const toolkit = require('../../utils/toolkit.js');
 Page({
   data: {
-
+    // loading: true,
+    // loadfail: false
   },
   onLoad: function () {
-
+    let that = this;
+    toolkit.startLoading();
+    setTimeout(function () {
+      toolkit.loadFail(function () {
+        toolkit.startLoading();
+        setTimeout(function(){
+          toolkit.loadSuccess();
+        },2500)
+      });
+    }, 3000)
   },
   // 吐司提示
   showToast: function () {

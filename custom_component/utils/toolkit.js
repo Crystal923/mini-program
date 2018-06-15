@@ -80,8 +80,22 @@ const toolkit = {
     this.getCuurrentPage().selectComponent('#loadmore').showLoaded();
   },
   // 隐藏木有更多
-  hide: function () {
+  hideLoaded: function () {
     this.getCuurrentPage().selectComponent('#loadmore').hideLoaded();
+  },
+  startLoading: function () {
+    this.getCuurrentPage().selectComponent('#loading').show();
+  },
+  loadSuccess: function () {
+    wx.stopPullDownRefresh();
+    this.getCuurrentPage().setData({
+      success: true
+    })
+    this.getCuurrentPage().selectComponent('#loading').hide();
+  },
+  loadFail: function (callback) {
+    wx.stopPullDownRefresh();
+    this.getCuurrentPage().selectComponent('#loading').error(callback);
   },
   getCuurrentPage: function () {
     let list = getCurrentPages();
