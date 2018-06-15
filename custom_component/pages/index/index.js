@@ -1,8 +1,6 @@
 const toolkit = require('../../utils/toolkit.js');
 Page({
   data: {
-    // loading: true,
-    // loadfail: false
   },
   onLoad: function () {
     let that = this;

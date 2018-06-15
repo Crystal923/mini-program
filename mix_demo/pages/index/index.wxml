@@ -1,0 +1,6 @@
+<view class="container">
+  <view class='list_item' bindtap='showToast'>
+    <text class='item_text'>swiper的使用</text>
+    <image class='item_img' src='../../images/more.png'></image>
+  </view>
+</view>

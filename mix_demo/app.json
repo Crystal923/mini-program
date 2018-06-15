@@ -5,7 +5,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "自定义组件",
+    "navigationBarTitleText": "混合示例",
     "navigationBarTextStyle": "black"
   }
 }
