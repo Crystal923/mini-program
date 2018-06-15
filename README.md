@@ -14,6 +14,8 @@ custom_component：自定义组件的学习与探索
         
         loadmore：列表加载更多以及没有更多数据
         
+        loading：加载动画以及加载失败
+        
 使用方法：
 
 modal：
@@ -101,14 +103,44 @@ loadmore：
         toolkit.showLoaded();
         <!--隐藏木有更多了提示-->
         toolkit.hideLoaded();
+        
+loading：
+
+    在需要使用的页面json中添加如下配置：
+    
+        "usingComponents": {
+   
+            "loading": "../../component/loading/loading"
+        }
+        
+    在wxml中使用组件：
+    
+       <loading id="loading"></loading>
+        
+    在js中处理逻辑：
+    
+        <!--开始加载-->
+        toolkit.startLoading();
+        <!--加载成功-->
+        toolkit.loadSuccess();
+        <!--加载失败  此时有个回调函数，用来重新加载-->
+        toolkit.loadFail(function () {
+            //重新加载逻辑
+        });
 
 ```
 #### 模态框效果图  
 
-![image](http://oqt5xkoma.bkt.clouddn.com/%E6%A8%A1%E6%80%81%E6%A1%86.png)
+![模态框](http://oqt5xkoma.bkt.clouddn.com/%E6%A8%A1%E6%80%81%E6%A1%86.png)
 
 #### 加载更多及木有更多了提示效果图
 
-![image](http://oqt5xkoma.bkt.clouddn.com/%E5%8A%A0%E8%BD%BD%E4%B8%AD.png)
+![加载更多](http://oqt5xkoma.bkt.clouddn.com/%E5%8A%A0%E8%BD%BD%E4%B8%AD.png)
 
-![image](http://oqt5xkoma.bkt.clouddn.com/%E6%9C%A8%E6%9C%89%E6%9B%B4%E5%A4%9A.png)
+![木有更多](http://oqt5xkoma.bkt.clouddn.com/%E6%9C%A8%E6%9C%89%E6%9B%B4%E5%A4%9A.png)
+
+#### 加载动画及加载失败效果图
+
+![加载动画](http://oqt5xkoma.bkt.clouddn.com/%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB.png)
+
+![加载失败](http://oqt5xkoma.bkt.clouddn.com/%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5.png)
