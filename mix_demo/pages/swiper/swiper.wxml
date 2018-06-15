@@ -1,2 +1,19 @@
-<!--pages/swiper/swiper.wxml-->
-<text>pages/swiper/swiper.wxml</text>
+<view class="swiper_container">
+  <swiper class='swiper' circular='true' previous-margin="72rpx" skip-hidden-item-layout next-margin="72rpx" bindchange='swiperChange'>
+    <swiper-item class='swiper_item {{0==currentIndex?"current_item":""}}'>
+      <view>
+        1
+      </view>
+    </swiper-item>
+    <swiper-item class='swiper_item {{1==currentIndex?"current_item":""}}'>
+      <view>
+        2
+      </view>
+    </swiper-item>
+    <swiper-item class='swiper_item {{2==currentIndex?"current_item":""}}'>
+      <view>
+        3
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
