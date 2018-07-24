@@ -3,6 +3,7 @@
     "toast": "../../component/toast/toast",
     "modal": "../../component/modal/modal",
     "loadmore": "../../component/loadmore/loadmore",
-    "loading": "../../component/loading/loading"
+    "loading": "../../component/loading/loading",
+    "rating": "../../component/rating/rating"
   }
 }

@@ -1,2 +1,7 @@
-<!--component/rating/rating.wxml-->
-<text>component/rating/rating.wxml</text>
+<view class='rating'>
+  <image class='star' wx:for="{{starList}}" wx:key="{{index}}" src='{{starList[index]==0?"../../images/component/star_null.png":starList[index]>weight*2/3?"../../images/component/star_full.png":"../../images/component/star_half.png"}}'>
+    <view class='left' data-index="{{index}}" data-scene="left" bindtap='rating'></view>
+    <view class='right' data-index="{{index}}" data-scene="right" bindtap='rating'></view>
+  </image>
+  <text>   当前分数:{{currentScore}}</text>
+</view>

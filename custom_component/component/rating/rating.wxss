@@ -1,1 +1,17 @@
-/* component/rating/rating.wxss */
+.rating .star {
+  width: 48rpx;
+  height: 48rpx;
+  position: relative;
+}
+
+.rating .star .left, .rating .star .right {
+  position: absolute;
+  width: 24rpx;
+  height: 48rpx;
+  left: 0;
+  top: 0;
+}
+
+.rating .star .right {
+  left: 24rpx;
+}

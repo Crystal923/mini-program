@@ -1,44 +1,44 @@
 const toolkit = require('../../utils/toolkit.js');
 Page({
-  data: {
-  },
-  onLoad: function () {
+  data: {},
+  onLoad: function() {
     let that = this;
     toolkit.startLoading();
-    setTimeout(function () {
-      toolkit.loadFail(function () {
-        toolkit.startLoading();
-        setTimeout(function(){
-          toolkit.loadSuccess();
-        },2500)
-      });
-    }, 3000)
+    toolkit.loadSuccess();
+    // setTimeout(function() {
+    //   toolkit.loadFail(function() {
+    //     toolkit.startLoading();
+    //     setTimeout(function() {
+    //       toolkit.loadSuccess();
+    //     }, 500)
+    //   });
+    // }, 1000)
   },
   // 吐司提示
-  showToast: function () {
+  showToast: function() {
     toolkit.showToast('吐司');
   },
   //模态框
-  showModal: function () {
+  showModal: function() {
     toolkit.showModal({
       id: 'modal',
       title: '温馨提示',
       msg: `<p>成功显示模态框<br/><span style="color:#ff523c;font-size:12px">这些内容换行了呢</span></p>`,
-      confirm: function () {
+      confirm: function() {
         console.log('点击了确定');
       },
-      cancel: function () {
+      cancel: function() {
         console.log('点击取消按钮时')
       },
-      input: function (res) {
+      input: function(res) {
         console.log('输入的内容', res);
       }
     });
   },
-  onReachBottom: function () {
+  onReachBottom: function() {
     console.log('onReachBottom')
     toolkit.startLoadMore();
-    setTimeout(function () {
+    setTimeout(function() {
       toolkit.showLoaded();
     }, 1000)
   }

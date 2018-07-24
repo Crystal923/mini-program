@@ -7,6 +7,9 @@
     <text class='item_text'>模态框</text>
     <image class='item_img' src='../../images/more.png'></image>
   </view>
+  <view class='list_item' style='justify-content: center;'>
+    <rating id="rating" score="3.2"></rating>
+  </view>
   <view class='list_item'>
     <text class='item_text'>1</text>
     <image class='item_img' src='../../images/more.png'></image>
